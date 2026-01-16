@@ -1,0 +1,22 @@
+h1 {
+
+    font-family: "Gravitas One", serif; 
+color:yellow;
+}
+p {
+     font-family: "Gravitas One", serif; 
+color:red;
+border:2px solid black;
+
+}
+body {
+    background-image: url("ludababy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ludacrissong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
