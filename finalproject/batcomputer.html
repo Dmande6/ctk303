@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Batcomputer Database</title>
+<link rel="stylesheet" href="batcomputer.css">
+</head>
+<body>
+<div class="overlay"></div>
+<header>
+<h1>THE BATCOMPUTER</h1>
+<p>Gotham City Surveillance & Tactical Systems</p>
+</header>
+<nav>
+<button class="tab active" onclick="openTab(event,'logo')">Home Base</button>
+<button class="tab" onclick="openTab(event,'map')">Gotham City Map</button>
+<button class="tab" onclick="openTab(event,'crime')">Crime Database</button>
+<button class="tab" onclick="openTab(event,'villains')">Threats</button>
+<button class="tab" onclick="openTab(event,'batmobile')">Services</button>
+<button class="tab" onclick="openTab(event,'gadgets')">Gadgets</button>
+<button class="tab" onclick="openTab(event,'contacts')">Contacts</button>
+<button class="tab" onclick="openconfidentialcontent(event)">CONFIDENTIAL</button>
+</nav>
+<main>
+    <section id="logo" class="tabcontent active">
+        <div class="gif-container">
+<img src="batman.gif" alt="Batcomputer Animation">
+        </div>
+    </section>
+<section id="map" class="tabcontent">
+
+  <h2>Gotham Surveillance</h2>
+
+  <div class="map-container">
+    <img src="map.webp" class="map">
+
+    <img src="alert.gif" class="alert alert1">
+    <img src="alert.gif" class="alert alert2">
+    <img src="alert.gif" class="alert alert3">
+    <img src="alert.gif" class="alert alert4">
+    <img src="alert.gif" class="alert alert5">
+    <img src="alert.gif" class="alert alert6">
+    <img src="alert.gif" class="alert alert7">
+    <img src="alert.gif" class="alert alert8">
+    <img src="alert.gif" class="alert alert9">
+    <img src="alert.gif" class="alert alert10">
+    <img src="alert.gif" class="alert alert11">
+    <img src="alert.gif" class="alert alert12">
+    <img src="alert.gif" class="alert alert13">
+    <img src="alert.gif" class="alert alert14">
+    <img src="alert.gif" class="alert alert15">
+  </div>
+<p>NOTE FOR ROBIN: IN CASE OF A COMPROMISE, THE PASSWORD HAS BEEN SPLIT ACROSS SEPARATE DATA FILES. RECONSTRUCT THE FULL PHRASE. PASSWORD MUST BE UPPERCASE AND CONTINOUS. </p>
+</section>
+
+<section id="crime" class="tabcontent">
+
+
+<h2>Gotham Crime Feed</h2>
+<h3>Live Reports from Vicki Vale</h3>
+
+
+<div class="card">Arkham breakout detected</div>
+<div class="card">Robbery reported in Crime Alley</div>
+<div class="card">Suspicious activity near Wayne Tower</div>
+<div class="card">Explosive penguins reported in the sewers</div>
+<div class="card">Suspicious cargo found in a LexCorp van</div>
+<div class="card">Identity theft reported in the City Hall District; suspect claims to be Bruce Wayne</div>
+<div class="card">Costumed clown suspect reportedly took control of a swan boat tour, rigging multiple passengers with explosive devices</div>
+<div class="card">Another small Riddler trophy has been left by Gotham’s shoreline, awaiting decryption</div>
+<div class="card">Sudden hallucinogenic exposure caused widespread panic in the Narrows district; aligns with prior Scarecrow-related incidents</div>
+<div class="card">Black Mask is currently unaccounted for following a violent gang-related incident; multiple Red Hood sightings reported</div>
+<div class="card">A red-hooded armored figure was observed dismantling a rogue cult using precise combat tactics before disappearing</div>
+<div class="card">Rapid plant growth detected in restricted zones; environmental control systems responding</div>
+<div class="card">Crime syndicate reportedly led by a wooden figure with a handgun; actual leadership remains under investigation</div>
+<P>FIRST PASSWORD HINT: ALFRED</P>
+</section>
+<section id="villains" class="tabcontent">
+<h2>Known Threats In Gotham</h2>
+  <div class="grid">
+    <div class="card villain">
+      <img src="Joker.webp">
+      <h3>Joker</h3>
+      <p class="desc">Absolute maniac. TAKE DOWN IMMEDIATELY
+      </p>
+    </div>
+ <div class="card villain">
+      <img src="HarleyQuinn.webp">
+      <h3>Harley Quinn</h3>
+      <p class="desc">Harleen Quinzel. Psychiatrist turned into Joker's Girlfriend. she's almost as crazy as him. THREAT LEVEL: MEDIUM</p>
+    </div>
+
+    <div class="card villain">
+      <img src="riddler.webp">
+      <h3>The Riddler</h3>
+      <p class="desc">Edward Nigma. Obsessed with puzzles and thinks he's intelligently dominant. THREAT LEVEL: MINIMUM</p>
+    </div>
+
+    <div class="card villain">
+      <img src="Bane.webp">
+      <h3>Bane</h3>
+      <p class="desc">No other alias. Extremely intelligent Wrestler pumped with Venom. Broke the Bat's Back. THREAT LEVEL: DANGEROUS</p>
+    </div>
+
+    <div class="card villain">
+      <img src="Penguin.webp">
+      <h3>Penguin</h3>
+      <p class="desc">Ozwald Cobblepot. The Crime boss of Gotham’s underground. Waddles alot. THREAT LEVEL: MINIMUM</p>
+    </div>
+
+   
+
+    <div class="card villain">
+      <img src="poisonivy.webp">
+      <h3>Poison Ivy</h3>
+      <p class="desc">Pamela Ivy. Once was a shy botanist, now is an Eco-terrorist. Extremely Seductive. THREAT LEVEL: IMMENSE</p>
+    </div>
+
+    <div class="card villain">
+      <img src="misterfreeze.webp">
+      <h3>Mr. Freeze</h3>
+      <p class="desc">Victor Fries. A Crygenicist who is doing everything in his power to save his wife Nora. Extremely cold. THREAT LEVEL: DANGEROUS</p>
+    </div>
+
+    <div class="card villain">
+      <img src="scarecrow.webp">
+      <h3>Scarecrow</h3>
+      <p class="desc">Johnathan Crane. A brilliant Pschologist who turns fear into a weapon. Created Fear Toxin.  THREAT LEVEL: DANGEROUS(mentally).</p>
+    </div>
+
+    <div class="card villain">
+      <img src="Clayface.webp">
+      <h3>Clayface</h3>
+      <p class="desc">Basil Karlo. Was once a famous movie actor. Shape-shifts from mud. THREAT LEVEL: DANGEROUS </p>
+  </div>
+  <div class="card villain">
+    <img src="killercroc.webp">
+      <h3>Killer Croc</h3>
+      <p class="desc">Waylon Jones. Has a rare condition that gives him reptilian skin. Big Teeth. TREAT LEVEL: DANGEROUS</p>
+        </div>
+      <div class="card villain">
+    <img src="twoface.webp">
+      <h3>Two-Face</h3>
+      <p class="desc">Harvey Dent. Was once Gotham's District Attorney who's face was splashed with acid. Has severe split-personality disorder. THREAT LEVEL: MEDIUM </p>
+      </div>
+        <div class="card villain">
+    <img src="raz.webp">
+      <h3>Ra's Al Ghoul</h3>
+      <p class="desc">Trained The Batman and holds access to the Lazarus Pit. Has a tendecy to die and come back. THREAT LEVEL: IMMENSE</p>
+      </div>
+       <div class="card villain">
+    <img src="blackmask.webp">
+      <h3>Black Mask</h3>
+      <p class="desc">Roman Sionis. Gotham's Other crime boss. Never takes off that mask. THREAT LEVEL: MINIMUM</p>
+      </div>
+       <div class="card villain">
+    <img src="victor.webp"><h3>Victor Zsasz</h3><p class="desc">Serial Killer. THREAT LEVEL: DANGEROUS</p> </div>
+    <div class="card villain">
+    <img src="madhatter.webp"><h3>The Mad Hatter</h3><p class="desc">Jervis Tetch. Has an obsession with the book Alice in Wonderland. around 3 hats tall. THREAT LEVEL: MINIMUM</p> </div>
+       </div>
+      
+</section>
+</div>
+</section>
+
+<section id="batmobile" class="tabcontent">
+
+<h2>Batmobile Systems</h2>
+
+<div class="batlayout">
+  <div class="batleft">
+    <img src="batmobile.gif" class="mobilegif">
+    <div class="card">Top Speed: 330 MPH</div>
+    <div class="card">Armor Rating: Military Grade</div>
+    <div class="card">Power Core: Experimental Turbine</div>
+    <div class="card">Accereration: 0 to 60 in 2.7 seconds</div>
+     <div class="card">Terrain Adaptation: Urban/Offroad/Debris</div>
+     <div class="card">Fitted for Pursuit and Combat</div>
+  </div>
+  <div class="batright">
+    <img src="Batmobile Arkham Knight Art.jpg" class="mobileimage">
+    
+
+  </div>
+
+</div>
+
+
+</div>
+<h3>ALL CURRENT BATSUITS</h3>
+<div class="grid">
+<div class="card"><img src="batsuit1.webp"><h3>Batsuit</h3><p>Standard Batman Outifit</p></div>
+<div class="card"><img src="batsuit2.webp"><h3>Batsuit 52</h3><p>Outfit from the Justice League</p></div>
+<div class="card"><img src="batsuit1989.webp"><h3>Batsuit 89</h3><p>Outfit for feeling Cinematic</p></div>
+<div class="card"><img src="batsuit1970s.webp"><h3>Batsuit 70</h3><p>Outfit for feeling Nostalgic</p></div>
+<div class="card"><img src="batsuitorigins.webp"><h3>Origin Batsuit</h3><p>Outfit from 2 years of nights</p></div>
+<div class="card"><img src="batsuitflashpoint.webp"><h3>Flashpoint Batsuit </h3><p>Father would be proud.</p></div>
+<div class="card"><img src="batsuitbeyond.webp"><h3>Beyond Batsuit </h3><p>Outfit for feeling Younger</p></div>
+<div class="card"><img src="batsuitcomics.webp"><h3>Batsuit </h3><p>Outfit from the golden age of heroes</p></div>
+<div class="card"><img src="batsuitdarkknight.webp"><h3>The Dark Knight Batsuit</h3><p>Outfit for not wearing hockey pads</p></div>
+<div class="card"><img src="batmanthe.webp"><h3>The Batsuit</h3><p>Outfit if something is in the way</p></div>
+
+</div>
+<p> SECOND PASSWORD HINT: DA</p> 
+</section>
+<section id="gadgets" class="tabcontent">
+<h2>Utilities</h2>
+<h3>ALL RESOURCES AVAILABLE AND ONLINE</h3>
+<div class="grid">
+
+<div class="card"><img src="Batarang.webp" alt="Batarang"><h3>Batarang</h3><p>Precision throwing weapon</p></div>
+<div class="card"><img src="sonic.webp"><h3>Sonic Batarang</h3><span>Throwing weapon that sends soundwaves around Target</span></div>
+<div class="card"><img src="grapplegun.webp"><h3>Grapple Gun</h3><span>Rapid vertical movement</span></div>
+<div class="card"><img src="smoke pellets.webp"><h3>Smoke Pellets</h3><span>Escape into cover</span></div>
+<div class="card"><img src="emp.webp"><h3>EMP Charge</h3><span>Disables electronics</span></div>
+<div class="card"><img src="sequencer.webp"><h3>Cryptographic Sequencer</h3>hacks into security terminals and monitor radio communication channels. <span></span></div>
+<div class="card"><img src="Explosive.webp"><h3>Explosive Gel</h3><span>Destroys structures and Stuns enemies</span></div>
+<div class="card"><img src="line.webp"><h3>Line Launcher</h3><span>Useful to get across large gaps and Traverse</span></div>
+<div class="card"><img src="remote.webp"><h3>Remote Claw</h3><span>Targets Two Objects and pulls them together</span></div>
+<div class="card"><img src="Shock.webp"><h3>Shock Gloves</h3><span>Specialized highly advanced gauntlets</span></div>
+<div class="card"><img src="cape.webp"><h3>Cape</h3><span>Turns into a glider and can cape stun enemies</span></div>
+<div class="card"><img src="detective.webp"><h3>Detective Mode</h3><span>Advanced analytical system that enhances perception and highlights clues</span></div>
+<div class="card"><img src="ultility.webp"><h3>Utility Belt</h3><span>High-tech storage system worn around the waist that contains specialized tools and gadgets</span></div>
+<div class="card"><img src="gel.webp"><h3>Gel Launcher</h3><span>a rifle that can be used to fire Explosive Gel</span></div>
+<div class="card"><img src="shark.webp"><h3>Oceanic Repellents</h3><span>Makes Jaws go Bye Bye</span></div>
+<p>FINAL PASSWORD HINT: BUTTLER </p>
+</section>
+
+
+<section id="contacts" class="tabcontent">
+
+  <h2>Allied Contacts</h2>
+
+  <div class="grid">
+
+    <div class="card contact">
+      <img src="alfred.webp">
+      <h3>Alfred</h3>
+      <p class="desc">Alfred Pennyworth. Long time Wayne family butler. Maintains the Batcave and helps remotely. A trusted friend.</p>
+    </div>
+    <div class="card contact">
+      <img src="batgirl.webp">
+      <h3>Batgirl</h3>
+      <p class="desc">Barbra 'Oracle' Gordan. Daughter of Commissioner Gordon. Relible ally</p>
+    </div>
+    <div class="card contact">
+      <img src="nightwing.jpg">
+      <h3>Nightwing</h3>
+      <p class="desc">Dick Grayson. Former Robin. Reliable ally</p>
+    </div>
+    <div class="card contact">
+      <img src="jim.webp">
+      <h3>Commissioner Gordon</h3>
+      <p class="desc">Jim Gordon. GCPD Commissioner. Coordinates crime responses. Reliable ally</p>
+    </div>
+    <div class="card contact">
+      <img src="lucius.webp">
+      <h3>Lucius Fox</h3>
+      <p class="desc">Wayne Enterprises technology director. Designs advanced equipment and the Batcomputer systems. Reliable ally</p>
+    </div>
+    <div class="card contact">
+      <img src="catwoman.webp">
+      <h3>Catwoman</h3>
+      <p class="desc">Selina Kyle. Skilled thief who loves to flirt. CONTACT ONLY FOR EMERGENCIES </p>
+    </div>
+    <div class="card contact">
+      <img src="damien.webp">
+      <h3>Robin</h3>
+      <p class="desc"> Damien Wayne. Bruce Wayne's son. CONTACT IF HE HASN'T DONE HIS HOMEWORK</p>
+    </div>
+    <div class="card contact">
+      <img src="redhood.webp">
+      <h3>Red Hood</h3>
+      <p class="desc"> Jason Todd. unstable ally. LOCATION UNKNOWN</p>
+    </div>
+    <div class="card contact">
+      <img src="superman.webp">
+      <h3>Superman</h3>
+      <p class="desc">Clark Kent. Lives in Metropolis. Member of the Justice League. CONTACT ONLY FOR EMERGENCIES</p>
+    </div>
+    <div class="card contact">
+      <img src="wonder woman.webp">
+      <h3>Wonder Woman</h3>
+      <p class="desc">Diana Prince of Themyscira. Amazonian warrior and Justice League member. CONTACT ONLY FOR EMERGENCIES </p>
+    </div>
+    <div class="card contact">
+      <img src="justice.webp">
+      <h3>JUSTICE LEAGUE</h3>
+      <p class="desc">Team of metahumans assembled for planet level threats. CONTACT ONLY FOR EMERGENCIES (or if The Flash needs a date...again)</p>
+    </div>
+  </div>
+</section>
+<section id="confidential" class="tabcontent">
+  <h2 id="confidentialTitle">CONFIDENTIAL FILES</h2>
+  <div class="card" id="confidentialcontent" style="display:none;">
+    <h3>WELCOME BRUCE WAYNE</h3>
+     <h3 class="alerttitle">CONTENGENCY PLAN FOR THE JUSTICE LEAGUE</h3>
+
+<p class="alertlevel">ACCESS LEVEL: OMEGA</p>
+
+<p>
+Should any of the core members of the league turn rogue, we need to have plans in place to handle each and every one of us should we become a threat. The members of the League are my teammates. But we need to be prepared for the worst always. -BW
+</p>
+
+
+  <div class="card contact">
+    <img src="supermansymbol.jpg" class="imgsuper">
+    <h3>LAST SON</h3>
+    <p class="desc">
+        If Superman ever becomes a threat to the planet, the following protocols will need to be enacted to ensure our survival: The sample of green kryptonite in vaults 7b provided by Superman himself will incapacitate him with brief exposure, and prolonged exposure would in all probability be fatal.
+  </p>
+  </div>
+
+  <div class="card contact">
+    <img src="wonderwomansymbol.png" class="imgwonder">
+    <h3>OLYMPUS</h3>
+    <p class="desc">
+      Diana is a good friend, which is just one reason it would be difficult to face her in combat. Should she turn against the League, it's not a thought I relish, but if it must be done, the following strategy could be useful. If she could be convinced that she is fighting an equal, she could then theoretically be trapped in an unending cycle of combat against a phantom opponent. Must investigate feasibility of neural virtual reality technology.
+    </p>
+  </div>
+
+  <div class="card contact">
+    <img src="martianmanhunter.webp" class="imgmartian">
+    <h3>RED SANDS</h3>
+    <p class="desc">
+      Jean Jones, the Manhunter from Mars, is the heart and soul of the Justice League. However, his strength and speed make him a formidable opponent. Should he ever turn against us, his vulnerability to fire would be hard to exploit in a defensive position. However, research suggests that a nanite virus spiked with magnesium would cause his skin to combust in contact with the air, neutralizing him as a threat.  </p>
+  </div>
+
+  <div class="card contact">
+    <img src="greenlantern.jpg" class="imglantern">
+    <h3>LIME LAMP</h3>
+    <p class="desc">
+      The ring of a Green Lantern is the most powerful weapon in the universe, limited only by the imagination of the bearer. The ring cannot be separated from the wielder except in the event of their death, and the ring's natural defenses prevent direct attack. But in order to use the ring, the core member needs to be able to see what they are doing. While an attack on the eyes would be ill-advised due to the defenses of the ring, see table 38 be for full offensive lists and their attendant probabilities of success. Research indicates that a posthypnotic suggestion could be planted into the Green Lantern psyche, causing them to believe themselves blind. The ring would then make them blind and forced by their own willpower. Must test out this theory on Guy Gardner.
+    </p>
+  </div>
+
+  <div class="card contact">
+    <img src="league.jpg" class="imgleague">
+    <h3>OTHER MEMBERS</h3>
+    <p class="desc">
+     Basic counters to other JLA members require further research. Flash: Paralysis. Green Arrow: Mobilize one of his arms. Zatanna: Trachea trauma. Red Tornado: EMP firestorm phantom zone; lack of raw materials should nullify his powers. Aquaman: Hydrophobia; investigate modification of Scarecrow's fear toxin. Black Canary: Tear gas, if administered quickly enough, should cut off her ability to speak and scream. Alternatively, I have recordings of her scream, which if played back at equal intensity, can cancel out the sound waves.
+    </p>
+  </div>
+
+  <div class="card contact">
+    <img src="batsym.jpg" class="imgbat">
+    <h3>DETECTIVE</h3>
+    <p class="desc">
+       If these contingency plans are discovered in the wake of my being incapacitated, please understand this has to be done for each of us. While Batman is a master strategist and combatant, he is only human. The best way to disable his strategic abilities would be to distract him. His parents are an excellent blind spot, as is his endless crusade to protect the innocent. Taking hostages is a good distraction, particularly if they are friends or family. Think carefully before you do this.
+   </p>
+  </div>
+
+</div>
+
+
+
+</section>
+
+</section>
+</div>
+</section>
+ <audio id="bg-music" loop>
+  <source src="batcavesounds.mp3" type="audio/mpeg">
+</audio>
+
+<div class="audio-controls">
+  <button onclick="toggleMusic()">PLAY/STOP</button>
+  <button onclick="volumeDown()">-</button>
+  <button onclick="volumeUp()">+</button>
+</div>
+</main>
+<script src="script.js"></script>
+
+</body>
+</html>
